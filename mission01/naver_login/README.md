@@ -37,6 +37,8 @@ function validationHandler() {
 
 ** `is--invalid` 클래스를 추가하면 '아이디는 이메일 형식으로 입력해주세요.'와 같은 메시지가 나타난다.
 
+<br />
+
 ```
 function buttonHandler(e) {
   e.preventDefault();
@@ -52,6 +54,8 @@ function buttonHandler(e) {
 - input에 입력한 값과 등록한 사용자 아이디 & 비밀번호 값이 일치한다면 `welcome.html` 페이지로 이동한다.
 - 그리고 input에 입력한 값을 초기화한다.
 - 만약 input에 입력한 값과 사용자 아이디 & 비밀번호 값이 일치하지 않다면 alert 창을 띄운다.
+
+<br />
 
 # 느낀 점
 처음에 페이지 이동이 안 돼서 한참을 씨름했는데
