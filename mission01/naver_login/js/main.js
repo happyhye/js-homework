@@ -21,7 +21,7 @@ console.log(input);
 const id = input[0];
 const pw = input[1];
 
-function validationHandler(e) {
+function validationHandler() {
   // 아이디(이메일) 정규식 확인
   if(emailReg(id.value)) id.classList.remove('is--invalid');
   else id.classList.add('is--invalid');
