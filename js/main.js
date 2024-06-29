@@ -59,7 +59,7 @@ nav.addEventListener('click', handleClick);
 // --------------------------- 함수 --------------------------- //
 
 function setBgColor(data, index) {
-  const [colorA, colorB] = data[index].color;
+  const [colorA, colorB='#000'] = data[index].color;
   document.body.style.background = `linear-gradient(to bottom, ${colorA}, ${colorB})`;
 }
 
