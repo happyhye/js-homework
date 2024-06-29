@@ -1,9 +1,7 @@
-
-
-class AudioPlayer {
+export class AudioPlayer {
   #audio = null;
 
-  constructor(source) {
+  constructor (source) {
     // if (!isString(source)) {
     //   throwTypeError('source 인자는 오디오 음원 경로(문자 값)이어야 합니다.');
     // }
